@@ -15,8 +15,8 @@ import android.util.Rational;
 public class RNAndroidPipModule extends ReactContextBaseJavaModule implements LifecycleEventListener {
 
     private final ReactApplicationContext reactContext;
-    private static final int ASPECT_WIDTH = 3;
-    private static final int ASPECT_HEIGHT = 4;
+    private static final int ASPECT_WIDTH = 16;
+    private static final int ASPECT_HEIGHT = 9;
     private boolean isPipSupported = false;
     private boolean isCustomAspectRatioSupported = false;
     private boolean isPipListenerEnabled = false;
